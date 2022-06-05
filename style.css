@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arctic;
+	
+	background-image: url("image/matthew-smith-rFBA42UFpLs-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: white;
+	
+	line-height: 1.6;
+	height: 100vh;
+}
+
+/*Pages box attributes*/
+.page_box {
+	margin-top: 5%;
+	width: 90%;
+	height: 80vh;
+	background: rgba(79, 109, 133, 0.5);
+}
+
+/*Content box attributes*/
+.content_box_skills{
+	width: 25%;
+	height: 70vh;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	float: left;
+	background: rgba(129, 158, 174, 0.5);
+}
+
+.content_box_about{
+	width: 80%;
+	height: 65vh;
+	margin-left: 10%;
+	float: left;
+	background: rgba(129, 158, 174, 0.5);
+	font-size: 20px;
+	padding: 5px;
+}
+
+.content_box_contant{
+	width: 40%;
+	height: 65vh;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 1%;
+	background: rgba(129, 158, 174, 0.5);
+	float: left;
+	font-size: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/*Logo placement attributes*/
+.logo {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+/*Navbar attributes*/
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background: rgba(79, 109, 133, 0.5);
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+	margin-right: 2.5%;
+}
+
+.navbar ul li {
+	margin: 0 1rem;
+	padding: 1rem;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+	color: #a2caf5;
+}
+
+.navbar ul li img{
+	height: 50px;
+	width: 50px;
+}
+
+/*Section attributes*/
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+section h1 {
+	font-size: 4rem;
+}
+
+section p {
+	font-size: 1.5rem;
+}
